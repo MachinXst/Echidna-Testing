@@ -72,3 +72,27 @@ Note: If you try to run the test in your terminal as `echidna-test template.sol 
 The `.sol` at the end of the command will give an output like `Compiling template.sol... Done! (0.186640229s)
 echidna-test: Given contract "TestToken.sol" not found in given file`  This isn't the output you should
 be expecting. Echidna’s `--contract` flag takes the contract name inside the file, not the filename itself.
+
+## Closing Notes
+
+This repository represents my applied walkthrough with Echidna, focusing on Part 1 property-based testing.
+While the contracts here are simple, the lessons are foundational to building an auditor’s mindset:
+
+Security is not about testing “Happy paths,” but proving what must always hold true. Property-based testing
+forces us to ask: what could go wrong if an attacker has unlimited attempts? Even small exercises sharpen
+intuition for real-world auditing of DeFi, DAO, and NFT protocols. This project fits into my broader GitHub
+portfolio, where I’m building and auditing smart contracts. Echidna adds another layer to that journey. Moving
+from writing code, to testing it, to formally verifying its resilience under adversarial conditions.
+
+## Next steps:
+
+- Expanding into stateful properties and custom invariants
+
+- Applying Echidna to my original projects
+
+- Combining Echidna with other auditor tools (Slither, Foundry, etc.) to simulate a full audit workflow.
+
+### The Takeaway: 
+
+Property-based testing is more than just another test framework — it’s a core skill for
+Solidity auditors, and this repo is one step in my path toward becoming a top-tier smart contract auditor.
