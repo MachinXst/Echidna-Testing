@@ -94,5 +94,5 @@ from writing code, to testing it, to formally verifying its resilience under adv
 
 ### The Takeaway: 
 
-Property-based testing is more than just another test framework — it’s a core skill for
+Property-based testing is more than just another test framework, it’s a core skill for
 Solidity auditors, and this repo is one step in my path toward becoming a top-tier smart contract auditor.
