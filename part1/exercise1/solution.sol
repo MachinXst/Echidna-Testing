@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 import "token.sol";
 
 /// @dev to run: $ echidna-test solution.sol
