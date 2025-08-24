@@ -5,12 +5,12 @@ to learn more.
 
 https://github.com/crytic/echidna
 
-# Invariant tests
+### Invariant tests
 You need to define good invariants for these tests to work correctly.
 Echidna attempts to run various combinations of inputs to throw the parameters of
 what's being tested (true/false)
 
-# Fuzz tests
+### Fuzz tests
 The goal is to stress the program by generating random inputs that run hundreds
 or thousands of times depending on the parameters you've set for a given test.
 If the test fails, take note of the input.
